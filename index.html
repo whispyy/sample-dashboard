@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html data-ng-app="fjs">
+    <head>
+        <title>Sample Dashboard</title>
+        
+        <meta charset="UTF-8">
+        
+        <script src="node_modules/angular/angular.min.js"></script>
+        <script src="node_modules/angular-route/angular-route.min.js"></script>
+
+        <!-- materialize -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
+        <script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+        <!-- map framework -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+
+
+        <script src="app/app.module.js"></script>
+        <script src="app/core/core.module.js"></script>
+
+        <script src="app/services/services.module.js"></script>
+        <script src="app/services/operation.service.js"></script>
+        <script src="app/services/data.service.js"></script>
+        
+        <script src="app/hello/hello.module.js"></script>
+        <script src="app/hello/hello.route.js"></script>
+        <script src="app/hello/hello.controller.js"></script>
+    </head>
+    <body>
+        <div data-ng-view></div>
+    </body>
+</html>
+        
+        
